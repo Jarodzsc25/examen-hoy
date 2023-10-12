@@ -1,8 +1,8 @@
-public class examen {
+public class suma {
     int sument1,sument2,sument3;
     double sumdou1,sumdou2,sumdou3,total,total1;
 
-    public examen() {
+    public suma() {
 
     }
 
@@ -71,7 +71,7 @@ public class examen {
         this.sumdou3 = sumdou3;
     }
 
-    public examen(int sument1, int sument2, double sumdou1, double sumdou2, double sumdou3,double total,double total1) {
+    public suma(int sument1, int sument2, double sumdou1, double sumdou2, double sumdou3,double total,double total1) {
         this.sument1 = sument1;
         this.sument2 = sument2;
         this.sument3=sument3;
@@ -100,5 +100,4 @@ public class examen {
         total1=sumdou1+sumdou2+sumdou3;
         System.out.println("la suma de 3 valores double es: "+total1);
     }
-
 }
